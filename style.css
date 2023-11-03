@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body {
+    background: #EFEBCE;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+
+}
+
+header {
+   
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right:0;
+        height: 80px;
+        padding: 0 1050px;
+        background-color: #EA9A96;
+    }
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 655px;
+
+}
+
+.nav li {
+    list-style: none;
+    margin: 0 30px;
+
+}
+
+.nav li a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    color: #000;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.nav li:hover a {
+    opacity: 0.5;
+    color: #FFF;
+}
+
+.search {
+    margin-left: -700px;
+    margin-top: 10px;
+    color: #000;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.search:hover {
+    opacity: 0.5;
+}
+
+.icone {
+    font-size: 25px;
+    color: #FFF;
+    cursor: pointer;
+    margin-left: 50px;
+    margin-top: 8px;
+}
+
+.icone:hover {
+    opacity: 0.5;
+}
+ 
+section h1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 300px;
+    margin-left: 600px;
+    font-size: 90px;
+    font-weight: 500;
+    color: #000;
+    cursor: pointer;
+}
+
+p{
+    position: relative;
+    width: 500px;
+    font-size: 20px;
+    margin-left: 600px;
+    margin-top: 30px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+button{
+    width: 200px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 720px;
+    border-radius: 20px;
+    font-size: 15px;
+    color: #FFF;
+    background: #4E211F;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    opacity: 0.5;
+}
+
+section img{
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   margin-left: 1300px;
+   margin-top: -300px;
+   cursor: pointer;
+}
+
+.img-boneca:hover{
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+
+section .fumaça{
+    margin-left: 1700px;
+}
+
+.fumaça:hover{
+    opacity: 0.5;
+}
+
+.elemento-linha {
+    display: inline-block;
+    border-bottom: 3px solid #A07462;
+    font-size: 15px;
+    font-weight: 200;
+    width: 70px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-left: -310px;
+    margin-top: -500px;
+    cursor: pointer; 
+}
+
+.carrousel div{
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    gap: 70px; 
+}
+
+.img-conteiner .box{
+    border: 10px solid transparent;
+    border-image: url(./img/fundo-borda.png) 150 round;
+    border-radius: 30px;
+    width: 250px;
+    height: 180px;
+    margin-left: 200px;
+    margin-top: 200px;
+    background: #EA9A96;
+    cursor: pointer;
+}
+
+.carrousel .box:hover{
+    transition: 0.3s;
+    transform: scale(1.1);
+    background: #EA9A96;
+}
+.box img{
+    margin-top: -180px;
+    margin-left: 50px;
+    width: 130px;
+}
+
+.carrousel .img-conteiner .box h2{
+    margin-left: -230px;
+    margin-top: 35px;
+    color: #000;
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+.img-conteiner .box h4{
+    text-align: center; 
+    width: 150px;
+    margin-left: -500px;
+    margin-top: 70px;
+    font-weight: 200;
+    color: #4E211F;
+    font-size: 18px;
+}
+
+.img-conteiner .box h3{
+    margin-left: -745px;
+    margin-top: 130px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #000;
+}
+
+.img-conteiner .box .adicione{
+    margin-top: -215px;
+    margin-left: 10px;
+    font-size: 20px;
+    color: #4E211F;
+}
+
+
+@font-face {
+    font-family: 'Nome';
+    src: url("./img/font/DollieScript_PersonalUse.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+    
+    font-family: 'Nome';
+    color: #000;
+}
